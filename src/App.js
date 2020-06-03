@@ -1,24 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+const api = {
+  key: "f5ef63462f0730e80c115487e5826ada",
+  base: "https://api.openweathermap.org/data/2.5/"
+}
 
 function App() {
+
+  const dateBuilder = (d) => {
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
+
+    return `${day} ${date} ${month} ${year}`
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <main>
+          <div className="search-box">
+            <input 
+            type="text"
+            className="search-bar"
+            placeholder="Search..."
+            />
+          </div>
+          <div className="location-box">
+            <div className="location">New York City, US</div>
+  <div className="date">{dateBuilder(new Date())}</div>
+            
+          </div>
+        </main>
     </div>
   );
 }
