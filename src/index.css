@@ -22,6 +22,14 @@ body {
   background-image: url('../src/assets/landscape-790644_640.jpg');
 }
 
+.app.clouds {
+  background-image: url('../src/assets/sunrise-2125136_640.jpg');
+}
+
+.app.rain {
+  background-image: url('../src/assets/rain-5213306_640.jpg');
+}
+
 main {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.75));
