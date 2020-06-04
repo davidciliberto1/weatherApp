@@ -31,7 +31,7 @@ function App() {
           </div>
           <div className="location-box">
             <div className="location">New York City, US</div>
-  <div className="date">{dateBuilder(new Date())}</div>
+  <div className="date1">{dateBuilder(new Date())}</div>
             
           </div>
         </main>

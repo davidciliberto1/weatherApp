@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Date1 from './components/date';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Date1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
