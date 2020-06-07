@@ -6,7 +6,6 @@
 .pnp.js
 /dist
 /.ideas
-/src/assets
 # testing
 /coverage
 
