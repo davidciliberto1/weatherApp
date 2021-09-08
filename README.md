@@ -1,3 +1,12 @@
+### Weather App Reactjs
+Descripcion: Aplicacion del clima, el usuario ingresa el lugar y la app hace la busqueda en la API devuelve el pronostico del clima para ese dia en el lugar buscado y cambia el display de fondo de acuerdo al pronostico del lugar, lluvioso, calido, nublado.
+
+###lista de libreria
+axios
+
+###API
+"https://api.openweathermap.org/data/2.5/"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
