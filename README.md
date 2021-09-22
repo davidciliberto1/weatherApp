@@ -1,7 +1,9 @@
 ### Weather App Reactjs
 Descripcion: Aplicacion del clima, el usuario ingresa el lugar y la app hace la busqueda en la API devuelve el pronostico del clima para ese dia en el lugar buscado y cambia el display de fondo de acuerdo al pronostico del lugar, lluvioso, calido, nublado.
 
-lista de libreria
+Description: weather app, user choose the place and the app makes the request to the API and returns the forecast for that day in the choosen place and switches the background display according to the forecast, rainy, warm o cloudy.
+
+Libraries
 
 axios
 
